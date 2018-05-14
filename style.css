@@ -1,0 +1,25 @@
+.container {
+  width: auto;
+}
+
+
+/*Navigation Bar*/
+#nav_bar{
+  display: inline-block;
+  position: absolute;
+  float: left;
+  left: 33%;
+  clear: left;
+}
+
+.search_form {
+  display: inline;
+}
+
+
+/* Aside Promo Images*/
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
