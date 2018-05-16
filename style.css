@@ -70,7 +70,18 @@ table {
   justify-content: center;
   align-items: center;
   height: 36px;
+  padding-top: 18px;
 
+}
+
+.nav_bar li:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.nav_bar li:last-child-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
 .nav_bar li {
@@ -79,12 +90,17 @@ table {
   list-style-type: none;
   background-color: grey;
   width: 103px;
-  border: 1px solid black;
+  border-right: 0.5px solid #404;
+  background: #707070;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, transparent 5%, transparent 97%, rgba(0, 0, 0, 0.45)) 100%, linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, transparent 0.2%, transparent 99.8%, rgba(0, 0, 0, 0.2) 100%), linear-gradient(to top, #666, #5e5e5e 50%, #707070 51%, #808080 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.2) 0, transparent 5%, transparent 97%, rgba(0, 0, 0, 0.45) 100%), -o-linear-gradient(left, rgba(0, 0, 0, 0.2) 0, transparent 0.2%, transparent 99.8%, rgba(0, 0, 0, 0.2) 100%), -o-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.2) 0, transparent 5%, transparent 97%, rgba(0, 0, 0, 0.45) 100%), -moz-linear-gradient(left, rgba(0, 0, 0, 0.2) 0, transparent 0.2%, transparent 99.8%, rgba(0, 0, 0, 0.2) 100%), -moz-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, transparent), color-stop(0.97, transparent), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, transparent), color-stop(0.998, transparent), to(rgba(0, 0, 0, 0.2))), -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
 
 }
 li a {
     display: block;
-   color: white;
+   color: #fff;
    text-align: center;
    padding: 8px;
    text-decoration: none;
@@ -93,6 +109,7 @@ li a {
  li:hover {
    background-color: black;
  }
+
 
 /* Aside Promo Images*/
 aside {
